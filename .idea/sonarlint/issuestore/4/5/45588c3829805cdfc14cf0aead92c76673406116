@@ -1,9 +1,0 @@
-
-~	java:S116"]Rename this field "success_statusCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë€¼øûÿÿÿÿ8“‰ÆíÅ1
-}	java:S116"\Rename this field "delete_statusCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øİØ…úÿÿÿÿ8“‰ÆíÅ1
-C
-java:S1170"!Make this final field static too.(Ë€¼øûÿÿÿÿ8”‰ÆíÅ1
-C
-java:S1170"!Make this final field static too.(øİØ…úÿÿÿÿ8”‰ÆíÅ1
-W
-java:S1068"5Remove this unused "delete_statusCode" private field.(øİØ…úÿÿÿÿ8˜‰ÆíÅ1
