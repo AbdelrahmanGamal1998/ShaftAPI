@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                                      Test Method: 'APIShaft.BookingIDTest'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-12-2023 11:43:22.0840 AM
+[ReportManager] Expected "true", and actual "true" @12-12-2023 11:43:22.0847 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 11:43:22.0855 AM
+[ReportManager] Assertion Passed: Evaluating that the response is successful (Status code is between 200 and 299). @12-12-2023 11:43:22.0856 AM
+[ReportManager] Request details:  "GET | Target Status Code: 0 | Service URL: https://restful-booker.herokuapp.com/booking | Content Type: */* | Response Time: 949ms | URL Arguments: firstnameJimlastnameBrown". @12-12-2023 11:43:22.0955 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @12-12-2023 11:43:22.0957 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @12-12-2023 11:43:23.0239 AM
+[ReportManager] Get response jsonvalue "$[0].bookingid". @12-12-2023 11:43:23.0263 AM
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @12-12-2023 11:43:24.0073 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "201" and Actual "201". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 11:43:24.0076 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code 201 against the expected one 201. @12-12-2023 11:43:24.0077 AM
+[ReportManager] Request details:  "DELETE | Target Status Code: 201 | Service URL: https://restful-booker.herokuapp.com/booking/479 | Content Type: application/json | Response Time: 803ms". @12-12-2023 11:43:24.0118 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @12-12-2023 11:43:24.0121 AM
+[ReportManager] Successfully created attachment 'API Response - Body' @12-12-2023 11:43:24.0125 AM
