@@ -1,8 +1,7 @@
 name: E2E Tests
  
 on:
-  schedule:
-    - cron: '35 11 * * *' # Adjusted for Egypt time (UTC+2
+ 
   workflow_dispatch:
     inputs:
       testsPath:
