@@ -42,7 +42,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50945 @w@C:\Users\abdelrahman.gamal\AppData\Local\Temp\idea_working_dirs_testng3.tmp -temp C:\Users\abdelrahman.gamal\AppData\Local\Temp\idea_testng11.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket53282 @w@C:\Users\abdelrahman.gamal\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\abdelrahman.gamal\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -153,6 +153,10 @@
     <value>info</value>
   </parameter>
   <parameter>
+    <key>openExtentReportAfterExecution</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
     <key>user.timezone</key>
     <value>Africa/Cairo</value>
   </parameter>
@@ -257,6 +261,10 @@
     <value>true</value>
   </parameter>
   <parameter>
+    <key>targetBrowserName</key>
+    <value>chrome</value>
+  </parameter>
+  <parameter>
     <key>sun.stderr.encoding</key>
     <value>UTF-8</value>
   </parameter>
@@ -277,6 +285,10 @@
     <value>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</value>
   </parameter>
   <parameter>
+    <key>headlessExecution</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
     <key>user.name</key>
     <value>abdelrahman.gamal</value>
   </parameter>
@@ -287,6 +299,14 @@
   <parameter>
     <key>java.vm.vendor</key>
     <value>Oracle Corporation</value>
+  </parameter>
+  <parameter>
+    <key>openAllureReportAfterExecution</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>fullScreenWindow</key>
+    <value>true</value>
   </parameter>
   <parameter>
     <key>sun.java.launcher</key>
@@ -323,6 +343,10 @@
   <parameter>
     <key>java.runtime.name</key>
     <value>Java(TM) SE Runtime Environment</value>
+  </parameter>
+  <parameter>
+    <key>generateExtentReports</key>
+    <value>true</value>
   </parameter>
   <parameter>
     <key>logger.app.name</key>

@@ -1,0 +1,29 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                                                    Test Method: 'APIShaft.createBookingTest'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @12-12-2023 13:28:38.0136 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 13:28:38.0138 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code 200 against the expected one 200. @12-12-2023 13:28:38.0138 PM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/booking | Content Type: application/json | Response Time: 1080ms". @12-12-2023 13:28:38.0166 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @12-12-2023 13:28:38.0168 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @12-12-2023 13:28:38.0170 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @12-12-2023 13:28:38.0172 PM
+[ReportManager] Get response jsonvalue "bookingid". @12-12-2023 13:28:38.0174 PM
+[ReportManager] Get response jsonvalue "booking.firstname". @12-12-2023 13:28:38.0177 PM
+[ReportManager] Expected "Jim", and actual "Jim" @12-12-2023 13:28:38.0179 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "Jim" and Actual "Jim". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 13:28:38.0181 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.firstname" is equal to "Jim". @12-12-2023 13:28:38.0182 PM
+[ReportManager] Get response jsonvalue "booking.lastname". @12-12-2023 13:28:38.0184 PM
+[ReportManager] Expected "Brown", and actual "Brown" @12-12-2023 13:28:38.0185 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "Brown" and Actual "Brown". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 13:28:38.0186 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.lastname" is equal to "Brown". @12-12-2023 13:28:38.0186 PM
+[ReportManager] Get response jsonvalue "booking.additionalneeds". @12-12-2023 13:28:38.0189 PM
+[ReportManager] Expected "Breakfast", and actual "Breakfast" @12-12-2023 13:28:38.0189 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "Breakfast" and Actual "Breakfast". Comparison Type "EQUALS". Validation Type "POSITIVE". @12-12-2023 13:28:38.0190 PM
+[ReportManager] Verification Passed: The API response extracted value from the JSON path "booking.additionalneeds" is equal to "Breakfast". @12-12-2023 13:28:38.0190 PM
+[ReportManager] Expected ""bookingid":", and actual "{"bookingid":3392,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}" @12-12-2023 13:28:38.0191 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected ""bookingid":" and Actual "{"bookingid":3392,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}". Comparison Type "CONTAINS". Validation Type "POSITIVE". @12-12-2023 13:28:38.0192 PM
+[ReportManager] Verification Passed: The API response Body contains ""bookingid":". @12-12-2023 13:28:38.0192 PM
