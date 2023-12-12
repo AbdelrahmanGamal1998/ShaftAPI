@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+/.idea/
+/allure-results/
+/execution-summary/
+/extent-reports/
